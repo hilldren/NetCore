@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Net5Mvc</name>
+    </assembly>
+    <members>
+        <member name="T:Net5Mvc.Controllers.HealthController">
+            <summary>
+            健康检测Api
+            </summary>
+        </member>
+        <member name="M:Net5Mvc.Controllers.HealthController.Index">
+            <summary>
+            首页1
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Net5Mvc.Controllers.HealthController.Index2">
+            <summary>
+            首页2
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Net5Mvc.Models.ResultData.state">
+            <summary>
+            状态
+            </summary>
+        </member>
+        <member name="P:Net5Mvc.Models.ResultData.message">
+            <summary>
+            信息
+            </summary>
+        </member>
+    </members>
+</doc>

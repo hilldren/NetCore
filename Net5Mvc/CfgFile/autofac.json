@@ -1,0 +1,54 @@
+{
+	"components": [
+		{
+			"type": "Zhaoxi.AspNetCore.Service.TestServiceA,Zhaoxi.AspNetCore.Service",
+			"services": [
+				{
+					"type": "Zhaoxi.AspNetCore.IService.ITestServiceA,Zhaoxi.AspNetCore.IService"
+				}
+			],
+			"instanceScope": "single-instance", //生命周期
+			"injectProperties": true // 属性注入 
+		},
+		{
+			"type": "Zhaoxi.AspNetCore.Service.TestServiceB,Zhaoxi.AspNetCore.Service",
+			"services": [
+				{
+					"type": "Zhaoxi.AspNetCore.IService.ITestServiceB,Zhaoxi.AspNetCore.IService"
+				}
+			],
+			"instanceScope": "per-dependency",
+			"injectProperties": true
+		},
+		{
+			"type": "Zhaoxi.AspNetCore.Service.TestServiceC,Zhaoxi.AspNetCore.Service",
+			"services": [
+				{
+					"type": "Zhaoxi.AspNetCore.IService.ITestServiceC,Zhaoxi.AspNetCore.IService"
+				}
+			],
+			"instanceScope": "single-instance",
+			"injectProperties": true
+		},
+		{
+			"type": "Zhaoxi.AspNetCore.Service.TestServiceD,Zhaoxi.AspNetCore.Service",
+			"services": [
+				{
+					"type": "Zhaoxi.AspNetCore.IService.ITestServiceD,Zhaoxi.AspNetCore.IService"
+				}
+			],
+			"instanceScope": "single-instance",
+			"injectProperties": true
+		},
+		{
+			"type": "Zhaoxi.AspNetCore.Service.TestServiceE,Zhaoxi.AspNetCore.Service",
+			"services": [
+				{
+					"type": "Zhaoxi.AspNetCore.IService.ITestServiceE,Zhaoxi.AspNetCore.IService"
+				}
+			],
+			"instanceScope": "single-instance",
+			"injectProperties": true
+		}
+	]
+}
