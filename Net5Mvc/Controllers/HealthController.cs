@@ -38,7 +38,7 @@ namespace Net5Mvc.Controllers
         [HttpGet]
         public string Index2()
         {
-            var consulList = ConsulProvider.FindConsulServiceList();
+            //var consulList = ConsulProvider.FindConsulServiceList();
             return "Index2";
         }
         [HttpPost]
